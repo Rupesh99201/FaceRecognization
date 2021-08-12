@@ -14,7 +14,7 @@ known_face_encondings = [roop_face_encoding,sneha_face_encoding]
 known_face_names = ["Roopesh","Sneha"]
 
 
-while True: git init
+while True:
     ret, frame = video_capture.read()
 
     rgb_frame = frame[:, :, ::-1]
